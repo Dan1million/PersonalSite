@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Cornell - Software Engineer Portfolio">
+    <title>Daniel Cornell - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Daniel Cornell</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Daniel Cornell</span></h1>
+                <p class="hero-subtitle">Software Engineer | Cross-Stack Developer | Computer Nerd</p>
+                <p class="hero-description">
+                    Software engineer with 3+ years of experience building microservices, RESTful APIs, developer tooling, firmware, and CI pipelines. I’ve worked across application, infrastructure, and firmware layers, and enjoy converting complex problems into real systems. I’m passionate about building software that delivers real customer value and continuously learning new technologies!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m a software engineer with 3+ years of experience building SDKs, developer tools, and 
+                        application software across frontend, backend, and systems layers. I’ve worked primarily 
+                        in Java, C#, and JavaScript, and I enjoy building software that provides real customer value. 
+                    </p>
+                    <p>
+                        At Hewlett Packard, I worked on an SDK team where I developed sample apps and demos 
+                        (including React apps), built automation and test frameworks, and managed CI/CD pipelines 
+                        in Azure DevOps. A big part of my work focused on improving developer experience, release 
+                        reliability, and test coverage. I’ve also contributed to large firmware codebases, which 
+                        taught me how to work carefully in complex, multi-team systems.
+                    </p>
+                    <p>
+                        I recently earned the AWS Certified Solutions Architect – Associate certification and am 
+                        continuing to build my cloud and system design skills. I’ve also been studying neural networks 
+                        in PyTorch to better understand how modern ML systems are built. I’m motivated by learning, 
+                        writing maintainable code, and building tools and products that are genuinely useful to others.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">C#</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">.NET</div>
+                        <div class="skill-item">Spring Boot</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Avalonia</div>
+                        <div class="skill-item">Azure DevOps</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">AWS</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">YAML</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="timeline-date">June 2024 - January 2026</span>
+                        </div>
+                            <h4 class="company"><img src="HP_logo.svg" alt="HP" style="width:1.5em;height:1.5em;vertical-align:middle;margin-right:0.5em;">Hewlett Packard</h4>
+                        <ul class="timeline-description">
+                            <li>Developed and maintained the OXPd 2.0 SDK, a microservice-based REST API platform enabling solution partners to build applications running on HP enterprise printers.</li>
+                            <li>Implemented production services and SDK components in C#, Java, and JavaScript, contributing across design, development, testing, and release.</li>
+                            <li>Designed and delivered 2,000+ automated conformance, performance, and integration tests, improving reliability across distributed services.</li>
+                            <li>Owned Azure DevOps CI pipelines, including YAML configuration, build agent provisioning, automated testing, and security scanning.</li>
+                            <li>Reduced CI runtime from 1h 45m to under 1 hour through parallel execution across multiple simulators.</li>
+                            <li>Built internal tools and sample applications serving as reference implementations for internal teams and external partners.</li>
+                            <li>Collaborated closely with architects, firmware teams, and distributed software teams to diagnose and resolve release-blocking issues.</li>
+                            <li>Contributed to next-generation enterprise firmware in C++, operating in a large, multi-team codebase and owning firmware triage.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="timeline-date">May 2022 - May 2024</span>
+                        </div>
+                            <h4 class="company"><img src="HP_logo.svg" alt="HP" style="width:1.5em;height:1.5em;vertical-align:middle;margin-right:0.5em;">Hewlett Packard</h4>
+                        <ul class="timeline-description">
+                            <li>Built and maintained backend services and tooling to support printer and SDK development, including an Express-based microservice system simulating printer HTTP endpoints</li>
+                            <li>Owned the architecture and execution of a 45,000+ LOC C# WPF to Avalonia port, delivering a complete cross-platform solution from a loosely defined migration objective</li>
+                            <li>Contributed production code across frontend, backend, and infrastructure components while working in an Agile environment using Jira and Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <span class="timeline-date">August 2020 - May 2024</span>
+                        </div>
+                        <h4 class="company">Boise State University</h4>
+                        <ul class="timeline-description">
+                            <li>Graduated Summa Cum Laude</li>
+                            <li>GPA: 3.99 overall | 4.0 in major coursework</li>
+                            <li>Studied algorithms, databases, distributed systems, and software engineering principles</li>
+                            <li>Member of the Honors College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>OXPd 2.0 SDK</h3>
+                        <div class="project-links">
+                            <span class="project-link" style="color: #6b7280; line-height: 1.2;">Professional<br>Project</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Spent 3 years as the primary developer of OXPd 2.0 SDK enabling solution partners to build applications for HP printers. 
+                        Contributed over 1 million lines of code and over 2000 unit and integration tests. 
+                        Built complete CI infrastructure in Azure DevOps and created reference implementations used by partners worldwide.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">.NET</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Azure DevOps</span>
+                        <span class="tag">RESTful APIs</span>
+                    </div>
+                    <div style="margin-top: 0.75em;">
+                        <a href="https://developers.hp.com/oxpd2/doc/how-it-works" target="_blank" style="color: var(--primary-color); font-weight: 500; text-decoration: underline;">See more about OXPd 2.0 SDK</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>OXPd 2.0 Firmware</h3>
+                        <div class="project-links">
+                            <span class="project-link" style="color: #6b7280; line-height: 1.2;">Professional<br>Project</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Contributed to HP's next-generation enterprise printer firmware in C++. 
+                        Worked in a large-scale codebase alongside hundreds of developers across multiple teams. 
+                        Developed features, implemented refactors, and owned OXPd firmware triage responsibilities.
+                        In addition, developed python based conformance tests to provide regression coverage and performance benchmarking.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Firmware</span>
+                        <span class="tag">Embedded Systems</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>SuperNanoGPT</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Dan1million/SuperNanoGPT" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Implemented a decoder-only GPT model using PyTorch with 10.7M parameters based on "Attention Is All You Need". 
+                        Implemented multi-head self-attention, feed-forward networks, layer normalization, and dropout. 
+                        Trained on Mini Shakespeare dataset with 64-character context window, achieving coherent text generation 
+                        after 5000 iterations.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Transformers</span>
+                    </div>
+                    <div style="margin-top: 0.75em;">
+                        <a href="https://github.com/Dan1million/SuperNanoGPT" target="_blank" style="color: var(--primary-color); font-weight: 500; text-decoration: underline;">View on GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>OXPd 2.0 SPU</h3>
+                        <div class="project-links">
+                            <span class="project-link" style="color: #6b7280; line-height: 1.2;">Professional<br>Project</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        As an intern project, ported an existing 45,000+ LOC WPF-based C# application to Avalonia, enabling cross-platform usage.
+                        Provided ongoing maintenance and feature development post-migration.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">Avalonia</span>
+                        <span class="tag">WPF</span>
+                        <span class="tag">.NET</span>
+                    </div>
+                    <div style="margin-top: 0.75em;">
+                        <a href="https://developers.hp.com/oxpd2/doc/how-it-works#sdk_tool_spu" target="_blank" style="color: var(--primary-color); font-weight: 500; text-decoration: underline;">See more about OXPd 2.0 SPU</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>SPU UI Testing</h3>
+                        <div class="project-links">
+                            <span class="project-link" style="color: #6b7280; line-height: 1.2;">Professional<br>Project</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Developed automated UI tests for the OXPd 2.0 SPU application using Avalonia and C#, improving regression coverage and application reliability. 
+                        Designed test cases to validate core functionality and maintain a consistent user experience across releases.
+                        Accelerated test development by leveraging GitHub Copilot and Claude to generate tests from structured test plans.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">GitHub Copilot</span>
+                        <span class="tag">Claude</span>
+                        <span class="tag">Agentic AI</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Avalonia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently exploring new opportunities in software engineering where I can  continue to build my technical skills and drive customer value. 
+                    Feel free to reach out!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:dcornell314@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉</span>
+                        dcornell314@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-cornell-724432204/" target="_blank" class="contact-link">
+                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="contact-icon" style="width:1.5em;height:1.5em;vertical-align:middle;filter:invert(27%) sepia(98%) saturate(7497%) hue-rotate(199deg) brightness(92%) contrast(101%);"> LinkedIn
+                    </a>
+                    <a href="https://github.com/Dan1million" target="_blank" class="contact-link">
+                        <img src="Github_Logo.svg" alt="GitHub" class="contact-icon" style="width:1.5em;height:1.5em;vertical-align:middle;"> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Daniel Cornell. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
