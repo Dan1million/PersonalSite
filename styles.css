@@ -424,6 +424,60 @@ section {
     font-weight: 500;
 }
 
+/* Recommendations Section */
+.recommendations {
+    background-color: var(--bg-primary);
+}
+
+.recommendations-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recommendation-item {
+    background-color: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.recommendation-logo {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+.recommendation-item h3 {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.recommendation-title {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.recommendation-text p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.recommendation-text p:last-child {
+    margin-bottom: 0;
+}
+
 /* Certifications Section */
 .certifications {
     background-color: var(--bg-secondary);
