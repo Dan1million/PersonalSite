@@ -343,6 +343,14 @@ section {
     font-size: 1.2rem;
 }
 
+.timeline-description li.certification-detail {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
 /* Projects Section */
 .projects {
     background-color: var(--bg-primary);
@@ -414,6 +422,70 @@ section {
     border-radius: 1rem;
     font-size: 0.85rem;
     font-weight: 500;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: var(--bg-secondary);
+    padding: 80px 0;
+}
+
+.certifications-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.certification-item {
+    padding: 1.5rem;
+    background-color: var(--bg-primary);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+}
+
+.certification-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.cert-date {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.cert-description {
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.certification-detail {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    position: relative;
+}
+
+/* Education Section */
+.education .timeline {
+    max-width: 700px;
+}
+
+.education .timeline::before {
+    display: none !important;
+}
+
+.education .timeline-item::before {
+    display: none !important;
+}
+
+.education .timeline-dot {
+    display: none !important;
+}
+
+.education .timeline-item {
+    padding-left: 0 !important;
 }
 
 /* Contact Section */
